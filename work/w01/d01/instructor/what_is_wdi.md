@@ -109,13 +109,13 @@ client-side frameworks to build what are often called "single-page applications"
 
 #### Lesson Objectives
 
+- Define "growth mindset."
 - Explain what is meant by *owning* your learning experience (active learning 
-  as opposed to passive learning). 
+  as opposed to passive learning), and explain what resources or actions you
+  plan to use to do that.
 - Explain the difference between taking notes and receiving notes,
-  and why each is important. 
+  and how each can be constructive or destructive. 
 - Explain the purpose of lesson objectives in this classroom. 
-- List the types of resources that students in this class should either 
-  generate or gather, and why.
 
 #### "Owning" Your Learning Experience
 
