@@ -1,5 +1,8 @@
 - **Concepts**
   - [Modeling: *Coding is not the new literacy*](http://www.chris-granger.com/2015/01/26/coding-is-not-the-new-literacy)
+- **Using the Mac**
+  - [Taking screenshots](https://support.apple.com/en-us/HT201361)
+  - [mac2imgur](https://github.com/mileswd/mac2imgur)
 - **Using Terminal (Bash) and Sublime Text**
   - [Sublime Text 2 Keyboard Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
   - [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)

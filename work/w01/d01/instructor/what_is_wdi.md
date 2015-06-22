@@ -152,6 +152,11 @@ your growth as a learner, but in the end it is up to you to use this structure
   things that are out there already (there is SOOOOO MUCH!). Most importantly,
   however, is that you should learn to make these yourselves, and share them
   with each other.
+4. **Asking questions**: ... this one is simple. ASK QUESTIONS! Always ask,
+  because you should always know:
+  - **What should I be *doing* right now?**
+  - **What should I be *learning* right now?**
+  - and then any question you have about the topic or content of that moment!
 
 ---
 
