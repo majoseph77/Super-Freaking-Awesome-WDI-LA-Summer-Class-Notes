@@ -12,11 +12,11 @@ Install the The Amazing Race gem, and run it! Type the following in to your term
 ```
 $ cd ~/code/wdi
 $ gem install the_amazing_race
-$ the_amazing_race
+$ begin_the_amazing_race
 Building your map...
 ```
 
-After that you should have a directory called `south_america` and one called `north_america` with a number of directories inside of it.
+After that you should have a directory called `the_amazing_race` that conatins the directories `south_america` and `north_america`, with a number of directories inside of them.
 
 ## Directions
 
@@ -30,9 +30,9 @@ What is there in Miami, Florida?
 
 ```
 $ ls
-south_beach
 coconut_grove
 miami_international_airport
+south_beach
 ```
 
 Well then, let's go to the airport!
