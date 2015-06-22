@@ -144,14 +144,18 @@ your growth as a learner, but in the end it is up to you to use this structure
   Every lesson should be framed, beginning and end, by a return to the
   objectives for a lesson.
 3. **Resources**: while learning to program, you will need every resource at
-  your disposal. We will help you to gather cheatsheets (short reminders of
-  how to do things by rote), notes (important points to remember from class),
-  walkthroughs, examples and templates (actual code that you can go over to
-  either build something or learn from example), tutorials (extended 
-  explanations), and more. We will also point you to the many versions of these
-  things that are out there already (there is SOOOOO MUCH!). Most importantly,
-  however, is that you should learn to make these yourselves, and share them
-  with each other.
+  your disposal.
+    - Documents: we will help you to gather cheatsheets (short reminders of
+      how to do things by rote), notes (important points to remember from class),
+      walkthroughs, examples and templates (actual code that you can go over to
+      either build something or learn from example), tutorials (extended 
+      explanations), and more. We will also point you to the many versions of these
+      things that are out there already (there is SOOOOO MUCH!). Most importantly,
+      however, is that you should learn to make these yourselves, and share them
+      with each other.
+    - People: your most important resource in this class is ONE ANOTHER.
+      Get to know eachother and rely upon eachother for support: programming is
+      never done (well) alone.
 4. **Asking questions**: ... this one is simple. ASK QUESTIONS! Always ask,
   because you should always know:
   - **What should I be *doing* right now?**
