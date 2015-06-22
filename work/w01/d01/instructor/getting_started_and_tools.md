@@ -22,10 +22,12 @@ Let's do setup!
   - how to set your Terminal profile, and
   - how to set up your `bash` profile.
 - **Sublime Text**:
-  - preferences and packages.
+  - opening up directories, and
+  - updating preferences and packages.
 - **Google Chrome**:
   - developer tools.
 - **Git & GitHub**:
+  - navigating GitHub,
   - forking the repo, and
   - cloning the repo.
 
@@ -33,6 +35,7 @@ Let's do setup!
 
 #### Lesson Objectives
 
+- Navigate the class repo and find/create files in the correct places.
 - Read and write simple Markdown, including paragraphs, lists, headings, links
   and images.
 
@@ -56,3 +59,21 @@ Let's do setup!
   - Recall where to find additional information on a command.
   - Exit an ongoing process in the terminal.
   - List the three standard streams that exist between a computer and its environment.
+
+## Lab #1 !!!
+
+Create your own Terminal cheatsheet and add all of the above commands in to it.
+
+- Go to your own fork of the class repo.
+- Create a new file in `resources/cheatsheets` on GitHub and name it `bash.md`.
+- Add the above lesson objectives as commands to it, using the backtick to denote
+  code blocks.
+- Save the file.
+- Use `git pull origin master` in your local copy of your fork of the repo to
+  download your work.
+
+Now, create a new file called `mac.md` or `ubuntu.md` locally, in the directory
+`resources/cheatsheets`, and use Sublime Text to make changes to it.
+
+Use `git add . && git commit -m "update mac cheatsheet" && git push origin master`
+to copy your changes up to your GitHub version of your fork.
