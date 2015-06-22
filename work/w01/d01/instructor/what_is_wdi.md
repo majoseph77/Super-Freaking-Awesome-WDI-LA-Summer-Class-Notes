@@ -65,7 +65,7 @@ A web application has a certain structure, and we must learn the parts of that
 structure and how to combine them one-by-one. Here is that structure and the
 path we will take to understand it as a whole:
 
-![A web application][webapplicationsturcture.jpg]
+![A web application][webapplicationstructure.jpg]
 
 ##### Part I: Web Pages
 
