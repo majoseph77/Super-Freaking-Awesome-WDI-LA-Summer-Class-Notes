@@ -174,3 +174,4 @@ your growth as a learner, but in the end it is up to you to use this structure
 - Define the term **modeling**.
 
 *Take your own notes!* :smile:
+
