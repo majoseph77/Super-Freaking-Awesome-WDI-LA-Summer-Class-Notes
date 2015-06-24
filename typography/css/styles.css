@@ -1,0 +1,69 @@
+p.serif{
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.monospace{
+  font-family: "Courier New", "Lucida Console", monospace;
+}
+
+.italic{
+  font-style: italic;
+
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#notbold{
+  font-weight: 100;
+}
+
+html{
+  font-size:16px;
+}
+
+div{
+  font-size:.75em;
+}
+
+.rem-text{
+  font-size:1rem;
+}
+
+.em-text{
+  font-size:1em;
+}
+
+
+
+@media only screen and (max-width: 300px){
+  body{
+    font-size: 0.75em;
+    background-color: lightblue;
+  }
+
+}
+
+@media only screen and (max-width: 250px){
+  body{
+    font-size: 0.6em;
+    background-color: lightgreen;
+  }
+}
+
+@media only screen and (max-width: 200px){
+  body{
+    font-size: 0.5em;
+    background-color: red;
+    color:black;
+  }
+}
