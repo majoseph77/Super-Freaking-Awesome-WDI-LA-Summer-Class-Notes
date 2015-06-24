@@ -1,3 +1,53 @@
+body{
+  background: url("http://www.desktopaper.com/wp-content/uploads/great-pretty-purple-white-guitar.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+
+
+}
+
+ input{
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+header{
+  text-align: center;
+
+}
+p{
+  text-align: center;
+}
+
+div{
+  background-color: black;
+  color: white;
+  padding: 30px, 20px, 30px, 20px;
+}
+
+
+.vs1{
+  font-style: italic;
+  font-size: 22px;
+}
+.vs2{
+  font-style: italic;
+  font-size: 22px;
+
+}
+
+.vs3{
+  font-style: italic;
+  font-size: 22px;
+}
+
+.end{
+  font-style: italic;;
+  font-size: 20px;
+}
+</style>
+
 p.vs1{
   font-family: Arial, Helvetica, serif;
 }
@@ -33,6 +83,7 @@ p.vs2{
 @media only screen and (max-width: 250px){
   body{
     font-size: 0.60em;
+
   }
 }
 
