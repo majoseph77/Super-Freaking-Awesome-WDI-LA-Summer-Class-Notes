@@ -11,7 +11,6 @@
 2. Creating Objects in JavaScript
 3. Designing Objects
 4. Lab
-5. After Hours
 
 ### 1. Intro to Objects
 
@@ -217,7 +216,7 @@ __Create an instance of a House in JSBin, check its properties, and call its `se
 
 Sweet!
 
-### 3. Lab
+### 4. Lab
 
 Pair up with a code partner and...
 
@@ -229,19 +228,7 @@ This works, but since an _address_ is something that are likely to create multip
 
 Then, use the constructor function to instantiate an _address_ object and pass it in as the _addrress_ argument to the House constructor.
 
-### 4. Homework / After Hours
 
-Design and create a `Car` constructor function for a car object that:
-
-- Has a `make` property
-- Has a `model` property
-- Has a `year` property
-- Has a `color` property
-- Has a `mileage` property
-- Has a `honk` method that `console.logs` "Beep, beep!".
-- Has a `drive` method that will accept an argument of the number of miles to add to the `mileage`. Ensure that the argument is not negative - it's illegal to roll back odometers!
-
-Create several car objects passing in different values as arguments, call their methods and examine their properties.
 
 
 
