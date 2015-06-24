@@ -1,0 +1,54 @@
+/*p.serif {*/
+  /*font-family: "Times New Roman", Times, serif;*/
+/*}*/
+
+/*p.sansserif {*/
+  /*font-family: Arial, Helvetica, sans-serif;*/
+/*}*/
+
+/*p.monospace {*/
+  /*font-family: "Courier New", "Lucida Console", monospace;*/
+/*}*/
+
+/*p.italic{*/
+  /*font-style: italic;*/
+  /*font-size: 2em;*/
+/*}*/
+
+/*[>root em is rem. It is relative to the root, AKA html<]*/
+/*html{*/
+  /*[>1rem = 16pm<]*/
+  /*font-size: 16px;*/
+/*}*/
+
+/*section.home h1{*/
+  /*font-size: 2rem;*/
+/*}*/
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 300px) {
+
+   body {
+     font-size: 0.7em;
+     background-color: lightblue;
+   }
+
+}
+
+@media only screen and (max-width: 250px){
+  body{
+    font-size: 0.6em;
+    background-color: lightgreen;
+  }
+}
+
+@media only screen and (max-width: 200px){
+  body{
+    font-size: 0.5em;
+    background-color: lightpink;
+  }
+}
+
+
