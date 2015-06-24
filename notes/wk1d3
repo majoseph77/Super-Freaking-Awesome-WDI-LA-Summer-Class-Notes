@@ -89,7 +89,8 @@ parent content
 
 #Static, relative, fixed, absolute, float
   *Since html reads from top 2 bottom all elements are static.
-    -static elements: will go from top to bottom
+    *static elements: will go from top to bottom
+    *the position of static elements can only be modified with margin command
 
   *Float
     -will position sections to desired direction
@@ -105,5 +106,5 @@ parent content
   *commands top, left, right, bottom only work with relative,
   absolute or fixed but never for static.
 
-  static can only be modified with margin command
+
 
