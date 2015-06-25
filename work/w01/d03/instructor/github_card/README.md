@@ -8,7 +8,7 @@ Except... there is no card. No worries: **we'll just make one!**
 
 Here is an example:
 
-![Example, completed card for H4W5.](https://i.imgur.com/bEgDIPg.png)
+<img alt="Example, completed card for H4W5." src="https://i.imgur.com/bEgDIPg.png" width="500px">
 
 Use the beginning code provided in the student folder:
 [`index.html`](index.html) & [`main.css`](css/main.css).
