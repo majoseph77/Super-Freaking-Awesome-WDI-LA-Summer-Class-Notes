@@ -202,4 +202,3 @@ var dave   = { name: "Dave", bornOn: "01/21/2014", password: "buffDog", password
 // 1. Create a variable called validateUser, and assign it to a function that takes a single argument, `user`.
 //    Use the methods you defined above to validate the user's password length and equality, as well as their email and age.
 //    If everything checks out, the validateUser function should return true. If anything *doesn't* check out, make the function return false.
-
