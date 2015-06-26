@@ -2,7 +2,7 @@
 
 | Learning Objectives |
 | :--- |
-| Create JavaScript Objects |
+| Create JavaScript Objects
 | Use JS Objects to Model Real World Objects |
 
 ## Roadmap
@@ -20,7 +20,7 @@ As web developers, we practice Object Oriented Programming techniques.
 
 With OOP, our programs are crafted from objects, which have data and behavior, and are used to model real world objects.  During the program's execution, these objects interact with each other to accomplish the programming goal.
 
-Virtually all OOP languages use what's known as a class-based approach where new objects are created from _classes_ that are used to construct new objects. JavaScript is the only OOP language in wide use that uses a prototype-based style of OOP where new objects are based upon the _prototype_ of other objects, not a class. 
+Virtually all OOP languages use what's known as a class-based approach where new objects are created from _classes_ that are used to construct new objects. JavaScript is the only OOP language in wide use that uses a prototype-based style of OOP where new objects are based upon the _prototype_ of other objects, not a class.
 
 #### JavaScript Objects
 
@@ -34,7 +34,7 @@ The _value_ of a property can be of any type, including other the primitive type
 
 When a property's value is a function, that particular property is often referred to as a _method_.
 
-The properties holding data, are often referred to as _attributes_. 
+The properties holding data, are often referred to as _attributes_.
 
 _methods_ and _attributes_ are both _properties_.
 
@@ -100,7 +100,7 @@ __Practice: Create an object that represents a concert ticket using _object lite
 
 #### Creating Objects with a Constructor Function
 
-You've seen how to create objects using object literals.  However, often your program will need to create tens, hundreds, or even more of the same type of object. _Constructor Functions_ to the rescue! 
+You've seen how to create objects using object literals.  However, often your program will need to create tens, hundreds, or even more of the same type of object. _Constructor Functions_ to the rescue!
 
 In essence, constructor functions are like factories - factories designed to produce multiple instances of the same type of object.  A constructor function for our _house_ object would look like this:
 
@@ -224,7 +224,7 @@ Add an `address` property to our House constructor, that is itself an object wit
 
 Then create a new _House_, passing in an object literal for the _address_ argument.
 
-This works, but since an _address_ is something that are likely to create multiple instances of, lets create of an Address constructor.  
+This works, but since an _address_ is something that are likely to create multiple instances of, lets create of an Address constructor.
 
 Then, use the constructor function to instantiate an _address_ object and pass it in as the _addrress_ argument to the House constructor.
 
