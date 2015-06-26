@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![GA Logo](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 
 # WDI DTLA 4 Class Repository
@@ -181,3 +182,12 @@ computer, try [Mou] [2].
 
 [1]: http://daringfireball.net/projects/markdown/    "Markdown"
 [2]: http://mouapp.com/                              "Mou"
+=======
+# Making the world better one note at a time
+
+Here is an open source project for our class where we can each add our notes
+from every day at class.
+
+Let me know if you want to collaborate and I'll add you as a collaborator where
+you can push your own notes so we all can share them and learn from them.
+>>>>>>> 55f56afd9f03096db7f168ae7b7e8cd4ac5e2a43
