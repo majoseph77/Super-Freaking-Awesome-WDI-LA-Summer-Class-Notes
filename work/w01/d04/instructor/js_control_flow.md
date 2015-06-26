@@ -186,7 +186,8 @@ The above example will print `"expr1 is true"` and the `else if` is never reache
 
 #### Warming up
 
-1. Use conditionals to check if a hardcoded number is `odd` or `even`, and then `console.log` the number is `odd` or `even` with the numbers value.
+1. Use conditionals to check if a hardcoded number is `odd` or `even`, and then 
+`console.log` the number is `odd` or `even` with the numbers value.
 
   ```
   var num = ;// write a number here
@@ -195,7 +196,8 @@ The above example will print `"expr1 is true"` and the `else if` is never reache
   
   ```
 
-2. Use conditionals to check if a hardcoded number is divisible by `2` or  `3` and then `console.log` that the number is divisible by two or three.
+2. Use conditionals to check if a hardcoded number is divisible by `2` or  `3` 
+and then `console.log` that the number is divisible by two or three.
 
   ```
   var num = ;// write a number here
@@ -204,7 +206,9 @@ The above example will print `"expr1 is true"` and the `else if` is never reache
   
   ```
 
-3. Use conditionals to check if a hardcoded `quantity` is `1` or greater than one. If the `quantity`  is one or greater `console.log` either `1 pet` or `quantity + " pets"` respectively.
+3. Use conditionals to check if a hardcoded `quantity` is `1` or greater than 
+one. If the `quantity`  is one or greater `console.log` either `1 pet` or 
+`quantity + " pets"` respectively.
 
   ```
   var quantity = ;// write a number here
@@ -214,9 +218,17 @@ The above example will print `"expr1 is true"` and the `else if` is never reache
   ```
 #### Intermediate
 
-4. There is an event where guests will be sitting in three sections based on their names: "left", "middle", and "right". If they have a premium ticket they can sit in first `3` rows in their section, otherwise they can take any seat behind row 3. Using hardcoded variables for `name` and `ticketType` print out appropriate seating instructions.
-5. There is an event with ticket prices that are `$50`, `$65`, `$85` for standard, premier, and premier plus (for drinks) seating. Seniors, veterans, and students receive a `$10` discount while standard patrons  receive no discount. Based on hardcoded variables for `ticketType` and `discountType`, print out a patrons `ticketPrice`.
+4. There is an event where guests will be sitting in three sections based on 
+their names: "left", "middle", and "right". If they have a premium ticket they 
+can sit in first `3` rows in their section, otherwise they can take any seat 
+behind row 3. Using hardcoded variables for `name` and `ticketType` print out 
+appropriate seating instructions.
 
+5. There is an event with ticket prices that are `$50`, `$65`, `$85` for 
+standard, premier, and premier plus (for drinks) seating. Seniors, veterans, 
+and students receive a `$10` discount while standard patrons receive no 
+discount. Based on hardcoded variables for `ticketType` and `discountType`, 
+print out a patrons `ticketPrice`.
 
 #### Ternary Operators
 
