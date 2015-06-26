@@ -29,3 +29,4 @@ function Car(make, model, year, color, mileage) {
 var car = new Car ('benz', 'sedan', 2015, 'black', 25);
 
 var luxuryCar = new Car ('bmw', 'coupe', 2016, 'red', 30);
+var dreamCar = new Car ('Bugatti', 'coupe', 2016, 'black', 10);

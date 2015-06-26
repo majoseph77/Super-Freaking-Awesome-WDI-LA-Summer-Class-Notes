@@ -106,5 +106,70 @@ parent content
   *commands top, left, right, bottom only work with relative,
   absolute or fixed but never for static.
 
+#Intro to JS
+
+##Datatypes, Variables, and Arrays
+
+*Objects
+*Object literal syntax
+var o={
+  name:"jim"
+  age: "?"
+}
+
+*Dont use ; inside of an object
+if you want more than one prop. seperate with,
+*Objects are made of properties
+*Properties are made up by pairing key values. Sometimes
+keys and names are synonymous. The value can be any data type.
+*Each property must have a key and a value
+*When a propertys value is a function it is called a method
+Ex: Key--> name: "tiff" <----Value
+
+*If your going to use your function as a constructor function ur
+first letter should be capital
+*Ex: function "H"ouse(numBaths, numBedrooms, color) {
+    this.baths = numBaths;
+    this.bedrooms = numBedrooms;
+    this.color = color;
+}
+
+var house = new House(3, 4, 'purple');
+
+
+honk=function(){console.log "beep beep"}
+
+
+var car = {
+  make: benz
+  model: sedan
+  year: 2015
+  color: black
+  mileage: 0
+};
+
+function Car(make, model, year, color, mileage) {
+  this.make= make;
+  this.model = model;
+  this.year= year;
+  this.color= color;
+  this.mileage= mileage;
+}
+
+var honda = new Car("BMW", "7series", 2016, "black", 23);
+}
+
+}
+
+
+Vocab
+*Object
+*Attribute
+*Method
+*Properties
+*Pr
+
+
+
 
 

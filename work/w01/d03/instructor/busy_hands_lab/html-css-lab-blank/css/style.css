@@ -1,0 +1,55 @@
+body{
+  padding:0;
+  margin: 0;
+}
+
+header{
+  height: 400px;
+  width: 1200px;
+  background-color: lightgrey;
+}
+
+.navigation{
+  height: 50px;
+  width: 1200px;
+  display: inline-table;
+  text-align: left;
+  background-color: black;
+  link-color:white;
+  color: white;
+  padding:;
+  float: top;
+}
+
+
+.home-blocks{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  float: center;
+  padding: 30px;
+  position: relative;;
+  top:50;
+}
+
+.social-logo{
+  float: right;
+}
+
+.mid-box{
+  height:200px;
+  width:1200px;
+  background-color: lightgrey;
+}
+
+.block1{
+  background-image: url("https://raw.githubusercontent.com/majoseph77/WDI_DTLA_4/master/work/w01/d03/instructor/busy_hands_lab/html-css-lab-blank/images/photo_column1.jpg?token=AMRXKL3RqwuUiNqyhZBO32ddq45-oIaMks5VlEHnwA%3D%3D")
+}
+
+.block2{
+  background-image: url(" ")
+}
+
+.block3{
+  background-image: url("https://raw.githubusercontent.com/majoseph77/WDI_DTLA_4/master/work/w01/d03/instructor/busy_hands_lab/html-css-lab-blank/images/photo_column3.jpg?token=AMRXKCcA1D8L2671o58fT-ex-H5qJC2Oks5VlELJwA%3D%3D")
+}

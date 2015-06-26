@@ -9,7 +9,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script language="javascript" type="text/javascript" src="procedural_drills.js"></script>
+  <script language="javascript" type="text/javascript"
+   src="procedural_drills.js"></script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title></title>
@@ -19,6 +20,8 @@
 
 </body>
 </html>
+
+
 
 
 
@@ -68,8 +71,9 @@ album1.title= "Talking Heads: 77"
 "Talking Heads: 77"
 album1.title
 "Talking Heads: 77"
-
-album3.albumDetails.formats[0][1]="LP", "Cassette";
+//answer//
+var album2Format0 = album2.albumDetails.formats[0];
+ album3.albumDetails.formats.push(album2Format0);
 
 
 var album3 = {
@@ -88,6 +92,11 @@ var album3 = {
 
 // 4. Change the release date of album3 from a string into a Date object
 
+//answer//
+
+album3.albumDetails.released = new Date (album3.albumDetails.released);
+Fri Aug 03 1979 00:00:00 GMT-0700 (PDT)
+
 
 var album4 = {
   title: "Remain in Light",
@@ -99,6 +108,9 @@ var album4 = {
 };
 
 // 5. Add the label "Sire" to album4's details
+
+//answer//
+album4.albumDetails.label = "Sire"
 
 
 var album5 = {
@@ -112,6 +124,11 @@ var album5 = {
 
 // 6. Add a 'formats' array to album 5 and add "CD", "Cassette", and "LP"
 
+
+//answer://
+album5.albumDetails.format = ["CD", "Cassette", "LP"];
+
+
 var album6 = {
   title: "Little Creatures",
   albumDetails: {
@@ -121,11 +138,14 @@ var album6 = {
   }
 };
 
-// doesnt work come back to this one//
 
-album6.albumDetails.label =new Array();
-album6.albumDetails.label[2] = album6.albumDetails.label[2].toUpperCase()
+
+
 // 7. Make the label "emi" in album6 all uppercase
+//answer://
+
+var newLabelName =album6.albumDetails.label[1].toUpperCase()
+album6.albumDetails.label[1] =newLabelName
 
 
 var album7 = {
@@ -138,6 +158,8 @@ var album7 = {
 };
 
 // Convert album7's 'label' property from the string value "Sire, EMI" into the array: ["Sire", "EMI"]
+//answer://
+
 
 var album8 = {
   title: "Naked",

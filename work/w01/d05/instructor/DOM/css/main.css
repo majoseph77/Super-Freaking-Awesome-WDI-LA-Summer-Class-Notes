@@ -1,0 +1,13 @@
+body
+{
+	font-family: Helvetica;	
+}
+
+#container
+{
+	border: 1px dashed black;	
+	font-size: 2em;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+}
