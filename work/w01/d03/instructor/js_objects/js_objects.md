@@ -200,7 +200,7 @@ House.prototype.sell = function() {
 };
 ```
 
-What's this `prototype` thingy? You will learn more about them soon enough. For now, just know that every object, including  functions, have a `prototype` property that is itself an object. And because it's an object, we can dynamically add properties to it - in this case, a method.
+What's this `prototype` thingy? You will learn more about them soon enough. For now, just know that there's a `prototype` property on constructors that is itself an object, and because it's an object, we can dynamically add properties to it - in this case, a method.
 
 __Why not just assign the function to a property inside of the constructor function?__
 
