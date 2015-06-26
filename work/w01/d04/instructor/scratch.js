@@ -1,12 +1,23 @@
-// var name = window.prompt("Please input your name");
+var name = window.prompt("Please input your name");
+var nameBase = ["Philip","Phil","PJ"];
 
-// if (name === "Phil") {
-//   window.alert("Please enter");
-//   console.log("Please enter");
-// } else {
-//   window.alert("No entry!");
-//   console.log("No entry!");
-// }
+var nameIsInNameBase = function(name, nameBase) {
+  for (var i = 0; i < nameBase.length; i++) {
+    if (nameBase[i] === name) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+if (nameIsInNameBase(name, nameBase)) {
+  window.alert("Please enter");
+  console.log("Please enter");
+} else {
+  window.alert("No entry!");
+  console.log("No entry!");
+}
 
 var time = 8;
 var name = window.prompt("Please input your name");

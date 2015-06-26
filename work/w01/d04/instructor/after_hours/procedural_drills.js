@@ -5,7 +5,8 @@ console.log("homework.js linked!");
 ////////////////////////////////////////////////
 
 // Link this JavaScript file to an HTML document.
-// You'll know the file is correctly linked if the console says "homework.js linked!"
+// You'll know the file is correctly linked if the console says 
+// "homework.js linked!"
 
 ////////////////////////////////////////////////
 // Part 2: Working With Data Structures
@@ -20,7 +21,8 @@ var album1 = {
   }
 };
 
-// 1. Retrieve the string "Sire" from album1, and save it in a sensibly named variable.
+// 1. Retrieve the string "Sire" from album1, and save it in a sensibly named 
+//    variable.
 
 // 2. Change the title of album1 from "Talking Heads" to "Talking Heads: 77"
 
@@ -42,7 +44,8 @@ var album3 = {
   }
 };
 
-// 3. Access album2's formats array and use an array method to add "LP" to album3's formats
+// 3. Access album2's formats array and use an array method to add "LP" to 
+//    album3's formats
 
 // 4. Change the release date of album3 from a string into a Date object
 
@@ -89,7 +92,8 @@ var album7 = {
   }
 };
 
-// Convert album7's 'label' property from the string value "Sire, EMI" into the array: ["Sire", "EMI"]
+// Convert album7's 'label' property from the string value "Sire, EMI" into the 
+// array: ["Sire", "EMI"]
 
 var album8 = {
   title: "Naked",
@@ -115,7 +119,9 @@ var talkingHeadsAlbums = [
 // Part 3: Conditional Logic
 ////////////////////////////////////////////////
 
-// 1. print "Talking Heads were a prolific band" to the console IF AND ONLY IF Talking Heads have 6 albums or more. Otherwise, print "Talking heads didn't have much output." Use the array of albums above.
+// 1. print "Talking Heads were a prolific band" to the console IF AND ONLY IF 
+//    Talking Heads have 6 albums or more. Otherwise, print "Talking heads 
+//    didn't have much output." Use the array of albums above.
 
 /////////////////////////////////////////////////////
 // Part 4: More Tasks About Datatypes and Structures
@@ -125,11 +131,14 @@ var talkingHeadsAlbums = [
 
 // 2. Give it the property `name` and set it to "Talking Heads"
 
-// 3. Give it the property `members` and set it to an array with a single string, "David Byrne", in it.
+// 3. Give it the property `members` and set it to an array with a single 
+//    string, "David Byrne", in it.
 
-// 4. Give it the property `albums` and set it to the array stored in the variable talkingHeadsAlbums
+// 4. Give it the property `albums` and set it to the array stored in the 
+//    variable talkingHeadsAlbums
 
-// 5. Add "Tiny Weymouth", "Chris Franz" and "Jerry Harrison" to the members array.
+// 5. Add "Tiny Weymouth", "Chris Franz" and "Jerry Harrison" to the members 
+//    array.
 
 /////////////////////////////////////////////////////
 // Part 5: For Loops
@@ -137,7 +146,9 @@ var talkingHeadsAlbums = [
 
 // 1. Use a for loop to print out the name of each Talking Heads album
 
-// 2. Create a variable called 'sireTally', and set it to the integer value 0. Then use a for-loop to go through all the Talking Heads albums, incrementing sireTally if the album was released under the "Sire" label
+// 2. Create a variable called 'sireTally', and set it to the integer value 0. 
+//    Then use a for-loop to go through all the Talking Heads albums, 
+//    incrementing sireTally if the album was released under the "Sire" label.
 
 /////////////////////////////////////////////////////
 // Part 6: More Tasks With Arrays and For Loops
@@ -151,47 +162,81 @@ var kings = [
   { name: 'Robb Stark',        house: 'Stark',               pretender: true }
 ];
 
-// 1. Create a variable called truePretenders and assign it to an empty array. Then use a for loop to iterate through the 'kings' array, pushing any established pretenders into the waiting truePretenders array.
+// 1. Create a variable called truePretenders and assign it to an empty array. 
+//    Then use a for loop to iterate through the 'kings' array, pushing any 
+//    established pretenders into the waiting truePretenders array.
 
 /////////////////////////////////////////////////////
 // Part 7: Basic Functions
 /////////////////////////////////////////////////////
 
-  // 1. Define a function 'calculateArea' that takes two arguments, 'height' and 'width' and returns the area as an integer.
-    // Example usage: calculateArea(3, 4) // =>  12
+  // 1. Define a function 'calculateArea' that takes two arguments, 'height' 
+  //    and 'width' and returns the area as an integer.
+  //
+  // Example usage: calculateArea(3, 4) // =>  12
 
-  // 2. Define a function 'calculateTip' that takes two arguments, 'mealCost' and 'tip_percentage' and returns the appropriate tip amount as a float
-    // Example usage: calculateTip(20.00, 15) // =>  3.0
+  // 2. Define a function 'calculateTip' that takes two arguments, 'mealCost' 
+  //    and 'tip_percentage' and returns the appropriate tip amount as a float.
+  //
+  // Example usage: calculateTip(20.00, 15) // =>  3.0
 
-  // 3. Define a function 'buildFullName' that takes two arguments, 'firstName' and 'lastName', and returns the full name properly formatted
-    // Example usage: buildFullName("Travis", "Vander Hoop") // => "Travis Vander Hoop"
+  // 3. Define a function 'buildFullName' that takes two arguments, 'firstName' 
+  //    and 'lastName', and returns the full name properly formatted
+  
+  //
+  // Example usage: 
+  // buildFullName("Travis", "Vander Hoop") // => "Travis Vander Hoop"
 
 /////////////////////////////////////////////////////
 // Part 8: User Validation Functions
 /////////////////////////////////////////////////////
 
 // sample data to test the functions outlined below
-var marvin = { name: "Marvin", bornOn: "05/21/1991", password: "abc123456", passwordConfirmation: "abc123456", email: "marvin@pizza.biz" };
-var dave   = { name: "Dave", bornOn: "01/21/2014", password: "buffDog", passwordConfirmation: "buffDog912", email: "dave melby@pizza.biz" };
+var marvin = { 
+  name: "Marvin", 
+  bornOn: "05/21/1991", 
+  password: "abc123456", 
+  passwordConfirmation: "abc123456", 
+  email: "marvin@pizza.biz"
+};
+
+var dave   = { 
+  name: "Dave", 
+  bornOn: "01/21/2014", 
+  password: "buffDog", 
+  passwordConfirmation: "buffDog912", 
+  email: "dave melby@pizza.biz"
+};
 
 
-// 1. Create a variable called validatePasswordsMatch, and assign it to a function that takes two arguments, `pw` and `pwConf`.
-//    Make this function return true if the password and password confirmation match, and false if they don't.
+// 1. Create a variable called validatePasswordsMatch, and assign it to a 
+//    function that takes two arguments, `pw` and `pwConf`. Make this function 
+//    return true if the password and password confirmation match, and false if 
+//    they don't.
 
-// 2. Use your function on marvin and dave's password and passwordConfirmation attributes to make sure it works.
+// 2. Use your function on marvin and dave's password and passwordConfirmation 
+//    attributes to make sure it works.
 
-// 3. Create a variable called validatePasswordLength, and assign it to a function that takes a single argument, `pw`.
-//    Make this function return true if the password length is between 8 and 16 characters, and false otherwise.
+// 3. Create a variable called validatePasswordLength, and assign it to a 
+//    function that takes a single argument, `pw`. Make this function return 
+//    true if the password length is between 8 and 16 characters, and false 
+//    otherwise.
 
-// 4. Use your function on marvin and dave's respective passwords to make sure it works.
+// 4. Use your function on marvin and dave's respective passwords to make sure 
+//    it works.
 
-// 5. Create a variable called validateEmail, and assign it to a function that takes a single argument, `email`.
-//    Make this function return true if the email contains an @ symbol and no spaces, and false otherwise
+// 5. Create a variable called validateEmail, and assign it to a function that 
+//    takes a single argument, `email`.
+//
+//    Make this function return true if the email contains an @ symbol and no 
+//    spaces, and false otherwise
 
-// 6. Use your function on marvin's and dave's email addresses to make sure it works.
+// 6. Use your function on marvin's and dave's email addresses to make sure it 
+//    works.
 
-// 7. Create a variable called validateAge, and assign it to a function that takes a single argument, `date`.
-//    Make this function return true if the user is over 13, and false otherwise
+// 7. Create a variable called validateAge, and assign it to a function that 
+//    takes a single argument, `date`. Make this function return true if the 
+//    user is over 13, and false otherwise.
 
 // 8. Use your function on marvin and dave to make sure it works.
 
@@ -199,7 +244,10 @@ var dave   = { name: "Dave", bornOn: "01/21/2014", password: "buffDog", password
 // Part 9: User Validation
 /////////////////////////////////////////////////////
 
-// 1. Create a variable called validateUser, and assign it to a function that takes a single argument, `user`.
-//    Use the methods you defined above to validate the user's password length and equality, as well as their email and age.
-//    If everything checks out, the validateUser function should return true. If anything *doesn't* check out, make the function return false.
+// 1. Create a variable called validateUser, and assign it to a function that 
+//    takes a single argument, `user`. Use the methods you defined above to 
+//    validate the user's password length and equality, as well as their email 
+//    and age. If everything checks out, the validateUser function should 
+//    return true. If anything *doesn't* check out, make the function return 
+//    false.
 
